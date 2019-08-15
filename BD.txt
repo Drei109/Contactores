@@ -1,0 +1,12 @@
+CREATE DATABASE contactores;
+
+USE contactores;
+
+CREATE TABLE registro(
+	registro_id INT AUTO_INCREMENT PRIMARY KEY,
+	local_id INT,
+	tipo INT,
+	fecha_encendido DATETIME ,
+	fecha_modificacion DATETIME ,
+	fecha_apagado DATETIME 
+)
