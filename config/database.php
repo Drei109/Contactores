@@ -5,7 +5,7 @@
         private $host = "localhost";
         private $db_name = "contactores";
         private $username = "root";
-        private $password = "";
+        private $password = "147896321";
         public $conn;
      
         // get the database connection
